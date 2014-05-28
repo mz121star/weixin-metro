@@ -29,75 +29,27 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body class="metro">
-<nav class="navigation-bar">
-    <nav class="navigation-bar-content">
-        <div class="element">
-            <a class="dropdown-toggle" href="#">METRO UI CSS</a>
-            <ul class="dropdown-menu" data-role="dropdown">
-                <li><a href="#">Main</a></li>
-                <li><a href="#">File Open</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Print...</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Exit</a></li>
-            </ul>
-        </div>
 
-        <span class="element-divider"></span>
-        <a class="element brand" href="#"><span class="icon-spin"></span></a>
-        <a class="element brand" href="#"><span class="icon-printer"></span></a>
-        <span class="element-divider"></span>
-
-        <div class="element input-element">
-            <form>
-                <div class="input-control text">
-                    <input type="text" placeholder="Search...">
-                    <button class="btn-search"></button>
-                </div>
-            </form>
-        </div>
-
-        <div class="element place-right">
-            <a class="dropdown-toggle" href="#">
-                <span class="icon-cog"></span>
-            </a>
-            <ul class="dropdown-menu place-right" data-role="dropdown">
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Download</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Buy Now</a></li>
-            </ul>
-        </div>
-        <span class="element-divider place-right"></span>
-        <a class="element place-right" href="#"><span class="icon-locked-2"></span></a>
-        <span class="element-divider place-right"></span>
-        <button class="element image-button image-left place-right">
-            Sergey Pimenov
-            <img src="images/211858_100001930891748_287895609_q.jpg"/>
-        </button>
-    </nav>
-</nav>
 
 
 <div class="container">
     <div class="row">
         <div class="col-sm-12 col-xs-12">
-            <div class="carousel" id="carousel1" style="width: 100%; height: 200px;">
-                <div class="slide" style="left: 0px;">
-                    <img src="images/1.jpg" class="cover1">
+            <div class="carousel" id="carousel1">
+                <div class="slide">
+                    <img src="images/1.jpg" class="cover1" />
                 </div>
 
-                <div class="slide" style="left: -508px; display: block;">
-                    <img src="images/2.jpg" class="cover1">
+                <div class="slide">
+                    <img src="images/2.jpg" class="cover1" />
                 </div>
 
-                <div class="slide" style="left: -508px; display: block;">
-                    <img src="images/3.jpg" class="cover1">
+                <div class="slide">
+                    <img src="images/3.jpg" class="cover1"/>
                 </div>
 
                 <a class="controls left"><i class="icon-arrow-left-3"></i></a>
                 <a class="controls right"><i class="icon-arrow-right-3"></i></a>
-
                 <div class="markers default">
                     <ul>
                         <li class="active"><a href="javascript:void(0)" data-num="0"></a></li>
@@ -116,29 +68,31 @@
                     <i class="icon-cart-2"></i>
                 </div>
                 <div class="tile-status">
-                    <span class="name">购物车</span>
+                    <span class="name">已购买宠物</span>
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-xs-4">
             <div class="tile   bg-amber">
-                <div class="tile-content icon">
-                    <i class="icon-play-alt"></i>
+                <div class="tile-content image">
+                    <img src="images/spface.jpg">
                 </div>
                 <div class="brand bg-black">
-                    <span class="label fg-white">在线视频</span>
+                    <span class="label fg-white">宠物视频</span>
 
                     <div class="badge bg-darkRed paused"></div>
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-xs-4">
-            <div class="tile bg-darkPink">
-                <div class="tile-content icon">
-                    <i class="icon-reddit"></i>
+            <div class="tile   bg-amber">
+                <div class="tile-content image">
+                    <img src="images/1.jpg">
                 </div>
-                <div class="tile-status">
-                    <span class="name">娱乐</span>
+                <div class="brand bg-black">
+                    <span class="label fg-white">宠物监控</span>
+
+                    <div class="badge bg-darkRed icon-eye"></div>
                 </div>
             </div>
         </div>
@@ -149,64 +103,90 @@
 
             <div class="tile   bg-amber">
                 <div class="tile-content icon">
-                    <i class="icon-play-alt"></i>
+                    <i class="icon-home"></i>
                 </div>
-                <div class="brand bg-black">
-                    <span class="label fg-white">在线视频</span>
+                <div class="tile-status">
+                    <span class="label fg-white">宠物领养</span>
 
-                    <div class="badge bg-darkRed paused"></div>
+
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 col-xs-4">
-            <div class="tile bg-lightPink">
-                <div class="brand">
-                    <div class="badge bg-red"><i class="icon-broadcast"></i></div>
+        <div class="col-sm-8 col-xs-8">
+            <div class="tile double">
+                <div class="tile-content image-set">
+                    <img src="images/1.jpg">
+                    <img src="images/2.jpg">
+                    <img src="images/3.jpg">
+                    <img src="images/4.jpg">
+                    <img src="images/5.jpg">
                 </div>
             </div>
+
         </div>
-        <div class="col-sm-4 col-xs-4">
+       <!-- <div class="col-sm-4 col-xs-4">
             <div class="tile bg-lightOlive">
                 <div class="brand">
                     <div class="badge bg-red"><i class="icon-broadcast"></i></div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
     <div class="row">
         <div class="col-sm-4 col-xs-4">
-            <div class="tile bg-darkRed">
-                <div class="brand">
-                    <div class="badge bg-red"><i class="icon-broadcast"></i></div>
+
+
+            <div class="tile   bg-cyan">
+                <div class="tile-content icon">
+                    <i class=" icon-feed"></i>
+                </div>
+                <div class="tile-status">
+                    <span class="label fg-white">宠物百科</span>
+
+
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-xs-4">
-            <div class="tile bg-darkRed">
-                <div class="brand">
-                    <div class="badge bg-red"><i class="icon-broadcast"></i></div>
+
+
+            <div class="tile   bg-red">
+                <div class="tile-content icon">
+                    <i class="icon-help"></i>
+                </div>
+                <div class="tile-status">
+                    <span class="label fg-white">常见问题</span>
+
+
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-xs-4">
-            <div class="tile bg-darkRed">
-                <div class="brand">
-                    <div class="badge bg-red"><i class="icon-broadcast"></i></div>
+
+
+            <div class="tile   bg-amber">
+                <div class="tile-content icon">
+                    <i class="icon-user"></i>
+                </div>
+                <div class="tile-status">
+                    <span class="label fg-white">联系我们</span>
+
+
                 </div>
             </div>
         </div>
     </div>
 
 </div>
-
-    <nav class="navigation-bar fixed-bottom">
+       <div class="row"></div>
+    <nav class="navigation-bar fixed-bottom bg-darkCyan">
         <nav class="navigation-bar-content">
             <item class="element col-sm-4 col-xs-4 text-center" >
-                        <i class="icon-phone"></i>
+                <a class="fg-white" href="tel:13840816169"><i class="icon-phone"> </i>     </a>
             </item>
-            <item class="element  col-sm-4 col-xs-4  text-center"> <i class="icon-mail"></i></item>
+            <item class="element  col-sm-4 col-xs-4  text-center">     <a class="fg-white" href="sms:13840816169"><i class="icon-mail"> </i></a></item>
 
-            <item class="element  col-sm-4 col-xs-4 text-center"> <i class="icon-location"></i></item>
+            <item class="element  col-sm-4 col-xs-4 text-center"> <i class="icon-location"> </i></item>
         </nav>
     </nav>
 
@@ -214,12 +194,20 @@
 
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
 <script src="js/vendor/jquery-1.10.2.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <script src="js/jquery/jquery.widget.min.js"></script>
 <script src="js/metro/metro.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
 
+<!--<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>-->
+<script>
+    $(function(){
+        $("#carousel1").carousel({
+            height: 200
+        });
+    })
+
+</script>
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
 
