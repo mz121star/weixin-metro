@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/metro-bootstrap.css">
+    <link rel="stylesheet" href="css/iconFont.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body class="metro">
+<nav class="navigation-bar">
+    <nav class="navigation-bar-content">
+        <div class="element">
+            <a class="dropdown-toggle" href="#">METRO UI CSS</a>
+            <ul class="dropdown-menu" data-role="dropdown">
+                <li><a href="#">Main</a></li>
+                <li><a href="#">File Open</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Print...</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Exit</a></li>
+            </ul>
+        </div>
+
+        <span class="element-divider"></span>
+        <a class="element brand" href="#"><span class="icon-spin"></span></a>
+        <a class="element brand" href="#"><span class="icon-printer"></span></a>
+        <span class="element-divider"></span>
+
+        <div class="element input-element">
+            <form>
+                <div class="input-control text">
+                    <input type="text" placeholder="Search...">
+                    <button class="btn-search"></button>
+                </div>
+            </form>
+        </div>
+
+        <div class="element place-right">
+            <a class="dropdown-toggle" href="#">
+                <span class="icon-cog"></span>
+            </a>
+            <ul class="dropdown-menu place-right" data-role="dropdown">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Buy Now</a></li>
+            </ul>
+        </div>
+        <span class="element-divider place-right"></span>
+        <a class="element place-right" href="#"><span class="icon-locked-2"></span></a>
+        <span class="element-divider place-right"></span>
+        <button class="element image-button image-left place-right">
+            Sergey Pimenov
+            <img src="images/211858_100001930891748_287895609_q.jpg"/>
+        </button>
+    </nav>
+</nav>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+            <div class="carousel" id="carousel1" style="width: 100%; height: 200px;">
+                <div class="slide" style="left: 0px;">
+                    <img src="images/1.jpg" class="cover1">
+                </div>
+
+                <div class="slide" style="left: -508px; display: block;">
+                    <img src="images/2.jpg" class="cover1">
+                </div>
+
+                <div class="slide" style="left: -508px; display: block;">
+                    <img src="images/3.jpg" class="cover1">
+                </div>
+
+                <a class="controls left"><i class="icon-arrow-left-3"></i></a>
+                <a class="controls right"><i class="icon-arrow-right-3"></i></a>
+
+                <div class="markers default">
+                    <ul>
+                        <li class="active"><a href="javascript:void(0)" data-num="0"></a></li>
+                        <li class=""><a href="javascript:void(0)" data-num="1"></a></li>
+                        <li class=""><a href="javascript:void(0)" data-num="2"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-xs-4">
+            <div class="tile bg-darkPink">
+                <div class="tile-content icon">
+                    <i class="icon-cart-2"></i>
+                </div>
+                <div class="tile-status">
+                    <span class="name">购物车</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+            <div class="tile   bg-amber">
+                <div class="tile-content icon">
+                    <i class="icon-play-alt"></i>
+                </div>
+                <div class="brand bg-black">
+                    <span class="label fg-white">在线视频</span>
+
+                    <div class="badge bg-darkRed paused"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+            <div class="tile bg-darkPink">
+                <div class="tile-content icon">
+                    <i class="icon-reddit"></i>
+                </div>
+                <div class="tile-status">
+                    <span class="name">娱乐</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-xs-4">
+
+
+            <div class="tile   bg-amber">
+                <div class="tile-content icon">
+                    <i class="icon-play-alt"></i>
+                </div>
+                <div class="brand bg-black">
+                    <span class="label fg-white">在线视频</span>
+
+                    <div class="badge bg-darkRed paused"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+            <div class="tile bg-lightPink">
+                <div class="brand">
+                    <div class="badge bg-red"><i class="icon-broadcast"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+            <div class="tile bg-lightOlive">
+                <div class="brand">
+                    <div class="badge bg-red"><i class="icon-broadcast"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-xs-4">
+            <div class="tile bg-darkRed">
+                <div class="brand">
+                    <div class="badge bg-red"><i class="icon-broadcast"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+            <div class="tile bg-darkRed">
+                <div class="brand">
+                    <div class="badge bg-red"><i class="icon-broadcast"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+            <div class="tile bg-darkRed">
+                <div class="brand">
+                    <div class="badge bg-red"><i class="icon-broadcast"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+<script src="js/vendor/jquery-1.10.2.min.js"></script>
+<script src="js/jquery/jquery.widget.min.js"></script>
+<script src="js/metro/metro.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+
+</script>
+</body>
+</html>
