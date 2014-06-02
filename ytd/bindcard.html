@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="../css/normalize.css">
+
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/metro-bootstrap.css">
+    <link rel="stylesheet" href="../css/iconFont.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <!--  <link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body class="metro">
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="alert alert-success">绑定提现银行卡</div>
+
+        <form role="form">
+            <div class="form-group">
+                <label for="khh">开户行</label>
+                <input type="text" class="form-control" id="khh" placeholder="开户行">
+            </div>
+            <div class="form-group">
+                <label for="khh">开户城市</label>
+                <input type="text" class="form-control" id="khcs" placeholder="开户城市">
+            </div>
+            <div class="form-group">
+                <label for="zhlx">账户类型</label>
+                <select class="form-control" id="zhlx">
+                    <option>借记卡</option>
+                    <option>信用卡</option>
+
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="khname">开户姓名</label>
+                <input type="text" class="form-control "  disabled id="khname" placeholder="开户姓名">
+            </div>
+            <div class="form-group">
+                <label for="zhmc">支行名称</label>
+                <input type="text" class="form-control" id="zhmc" placeholder="支行名称">
+            </div>
+            <div class="form-group">
+                <label for="zhmc">银行卡号</label>
+                <input type="text" class="form-control" id="yhkh" placeholder="银行卡号">
+            </div>
+            <button type="button" class="btn btn-success  btn-block btn-lg">立即绑定！</button>
+
+    </form>
+    </div>
+</div>
+<div class="row" style="height: 50px" ></div>
+<nav class="navigation-bar fixed-bottom bg-darkCyan">
+    <nav class="navigation-bar-content">
+        <item class="element col-sm-4 col-xs-4 text-center" >
+            <a class="fg-white" href="tel:13840816169"><i class="icon-phone"> </i>     </a>
+        </item>
+        <item class="element  col-sm-4 col-xs-4  text-center">     <a class="fg-white" href="sms:13840816169"><i class="icon-mail"> </i></a></item>
+
+        <item class="element  col-sm-4 col-xs-4 text-center"> <i class="icon-location"> </i></item>
+    </nav>
+</nav>
+
+
+
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+<script src="../js/vendor/jquery-1.10.2.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="../js/jquery/jquery.widget.min.js"></script>
+<script src="../js/metro/metro.min.js"></script>
+
+<!--<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>-->
+<script>
+    $(function(){
+        $("#carousel1").carousel({
+            height: 200
+        });
+    })
+
+</script>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+
+</script>
+</body>
+</html>

@@ -1641,7 +1641,7 @@ a {
 .metro .table tr.selected {
   background-color: rgba(28, 183, 236, 0.1);
 }
-.metro .button {
+/*.metro .button {
   padding: 4px 12px;
   text-align: center;
   vertical-align: middle !important;
@@ -1818,7 +1818,7 @@ a {
 .metro button.mini {
   padding: 0px 6px;
   font-size: 10.5px;
-}
+}*/
 .metro .command-button {
   padding: 4px 12px;
   text-align: center;
